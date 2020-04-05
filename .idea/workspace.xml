@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bbd77b1c-c29b-4f18-b587-34fc31d273ea" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="TestNG" name="dcds" />
+    </enabled-run-configurations>
+  </component>
+  <component name="ProjectId" id="1a1ugDMo5CJucA5UYho5MhogeNl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Tech42.am" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RunManager" selected="TestNG.dcds">
+    <configuration name="SignInSuit" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="www.booking.com" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SignInSuit" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignInSuit.birthDatePositive" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="www.booking.com" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SignInSuit" />
+      <option name="METHOD_NAME" value="birthDatePositive" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignInSuit.signIn" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="www.booking.com" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SignInSuit" />
+      <option name="METHOD_NAME" value="signIn" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="anyTest.foo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="www.booking.com" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="anyTest" />
+      <option name="METHOD_NAME" value="foo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dcds" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="www.booking.com" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="dcds" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.dcds" />
+        <item itemvalue="TestNG.SignInSuit.birthDatePositive" />
+        <item itemvalue="TestNG.SignInSuit.signIn" />
+        <item itemvalue="TestNG.SignInSuit" />
+        <item itemvalue="TestNG.anyTest.foo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bbd77b1c-c29b-4f18-b587-34fc31d273ea" name="Default Changelist" comment="" />
+      <created>1585915529828</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585915529828</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1586014737322">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586014737322" />
+    <state width="1323" height="231" key="GridCell.Tab.0.bottom" timestamp="1586034252890">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="231" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586034252890" />
+    <state width="1323" height="231" key="GridCell.Tab.0.center" timestamp="1586034252890">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="231" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586034252890" />
+    <state width="1323" height="231" key="GridCell.Tab.0.left" timestamp="1586034252890">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="231" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586034252890" />
+    <state width="1323" height="231" key="GridCell.Tab.0.right" timestamp="1586034252890">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="231" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586034252890" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1586021465941">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586021465941" />
+    <state x="389" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1585932054126">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="389" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1585932054126" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1586016785806">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1586016785806" />
+  </component>
+</project>
