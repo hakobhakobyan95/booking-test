@@ -23,7 +23,7 @@ public class dcds extends WebDriverSettings {
 
 
     @BeforeMethod
-    public void jkadkjad() throws InterruptedException {
+    public void initCookie() throws InterruptedException {
         System.out.println(cookie == null);
         if (cookie != null) {
             System.out.println("b sanxsnagvxsagvxsagasg");
