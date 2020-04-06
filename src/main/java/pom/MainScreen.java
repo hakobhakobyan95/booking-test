@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
+import java.util.concurrent.TimeUnit;
+
 public class MainScreen extends Screen {
     WebDriver driver;
     //******* This is for "Where are you going" input field **************
@@ -83,6 +85,29 @@ public class MainScreen extends Screen {
         SettingListPage settingListPage = new SettingListPage(driver);
         return settingListPage;
     }
+
+   // By inputField = By.id("ss");
+   // By searchButton = By.xpath("/html[1]/body[1]/div[4]/div[1]/div[1]/div[2]/form[1]/div[1]/div[4]/div[2]/button[1]/span[1]");
+    By checkBox = By.className("filterbox_options_content");
+    By starLabel = By.className("bk-icon -sprite-ratings_stars_1");
+
+
+    public MainScreen sendKeysToInputField() throws InterruptedException{
+        utils.sendKeys(directionInputField, "New York");
+        return this;
+    }
+
+//    public void clickSearchButton() throws InterruptedException{
+//        driver.manage().timeouts().pageLoadTimeout(4, TimeUnit.SECONDS);
+//        utils.click(searchButton);
+//
+//    }
+
+    public void clickCheckbox(){
+        wait.until(ExpectedConditions.elementToBeClickable(checkBox));
+        utils.click(checkBox);
+    }
+
 
 
 }
