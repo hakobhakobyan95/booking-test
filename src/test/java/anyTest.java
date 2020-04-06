@@ -20,7 +20,7 @@ public class anyTest extends WebDriverSettings {
      */
     @Test
     public void filteredOnlyHotels() throws InterruptedException {
-        mainScreen.inputPlace()
+        mainScreen.inputPlace("Yerevan")
                 .clickSearchButton()
                 .clickPopularFilterHotels();
         Thread.sleep(5000);
@@ -31,7 +31,7 @@ public class anyTest extends WebDriverSettings {
     @Test
     public void changeSearchParameters(){
         try {
-            mainScreen.inputPlace()
+            mainScreen.inputPlace("Yerevan")
                     .clickSearchButton()
                     .changeNumberOfAdults()
                     .changeNumberOfChild()

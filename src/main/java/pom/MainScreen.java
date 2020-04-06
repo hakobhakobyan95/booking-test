@@ -42,8 +42,8 @@ public class MainScreen extends Screen {
         this.driver = driver;
     }
 
-    public MainScreen inputPlace() throws InterruptedException {
-        utils.sendKeys(directionInputField, "Yerevan");
+    public MainScreen inputPlace(String city) throws InterruptedException {
+        utils.sendKeys(directionInputField, city);
         return this;
     }
 
