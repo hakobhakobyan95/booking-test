@@ -34,7 +34,9 @@ public class SeleniumUtils {
     }
 
     public  void select(By by,String text){
+        wait.until(ExpectedConditions.elementToBeClickable(by));
         selectLevel = new Select(driver.findElement(by));
         selectLevel.selectByValue(text);
+        System.out.println("Select " + selectLevel + " and selected by value" + text);
     }
 }

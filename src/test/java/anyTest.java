@@ -1,4 +1,5 @@
 import driver.WebDriverSettings;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pom.MainScreen;
@@ -11,17 +12,33 @@ public class anyTest extends WebDriverSettings {
     @BeforeMethod
     public void setUp() {
         mainScreen = new MainScreen(webDriver);
-//        this.resultPage = new ResultPage(webDriver);
     }
 
+
+    /*Test case.ID 7
+    Verify that filter "Hotels" works properly
+     */
     @Test
-    public void foo() throws InterruptedException {
+    public void filteredOnlyHotels() throws InterruptedException {
         mainScreen.inputPlace()
-                .clickSearchButton();
-//        resultPage.foo();
+                .clickSearchButton()
+                .clickPopularFilterHotels();
         Thread.sleep(5000);
     }
-
-
+    /*Test case.ID 8
+    Verify that after searching user can change search parameters
+    */
+    @Test
+    public void changeSearchParameters(){
+        try {
+            mainScreen.inputPlace()
+                    .clickSearchButton()
+                    .changeNumberOfAdults()
+                    .changeNumberOfChild()
+                    .changeNumberOfRooms();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
 
 }

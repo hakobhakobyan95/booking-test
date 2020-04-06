@@ -1,18 +1,18 @@
 package pom;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.util.List;
 
 public class ResultPage extends Screen {
     WebDriver driver;
-//
+    // click "Hotels" tick in "Popular Filters"
     By popularFilterHotels = By.xpath("//div[@id='filter_filter-suggestions']//span[@class='filter_label'][contains(text(),'Hotels')]");
-//
+    //
+    By choseNumberOfAdults = By.id("group_adults");
+    //
+    By choseChildrenCount = By.id("group_children");
+    //
+    By choseNumberOfRooms = By.id("no_rooms");
 
     public ResultPage(WebDriver driver) {
         super(driver);
@@ -32,8 +32,23 @@ public class ResultPage extends Screen {
         System.out.println(hotelCheckbox.isEnabled());
     }*/
 
-    public void clickPopularFilterHotels() {
+    public ResultPage clickPopularFilterHotels() {
         utils.click(popularFilterHotels);
+        return this;
     }
 
+    public ResultPage changeNumberOfAdults() {
+        utils.select(choseNumberOfAdults, "4");
+        return this;
+    }
+
+    public ResultPage changeNumberOfChild() {
+        utils.select(choseChildrenCount, "2");
+        return this;
+    }
+
+    public ResultPage changeNumberOfRooms() {
+        utils.select(choseNumberOfRooms, "2");
+        return this;
+    }
 }

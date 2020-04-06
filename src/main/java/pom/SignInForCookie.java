@@ -6,6 +6,8 @@ import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
+import java.util.Collections;
+import java.util.Iterator;
 import java.util.Set;
 
 public class SignInForCookie extends Screen {
@@ -36,12 +38,27 @@ public class SignInForCookie extends Screen {
         utils.click(secondSignIn);
     }
     public Cookie getCookie(){
-        Set<Cookie> cookies = driver.manage().getCookies();
-//        Iterator<Cookie> cookieList = cookies.iterator();
-//        while (cookieList.hasNext())
-//            System.out.println(cookieList.next());
         System.out.println(driver.manage().getCookieNamed("bkng_sso_session"));
         return driver.manage().getCookieNamed("bkng_sso_session");
+    }
+    public Set<Cookie> getAllCookie(){
+        Set<Cookie> cookies = driver.manage().getCookies();
+        Set<Cookie> bookingCookie;
+        bookingCookie = Collections.<Cookie>emptySet();
+        Iterator<Cookie> cookieIterator = cookies.iterator();
+        while (cookieIterator.hasNext()){
+            System.out.println(cookieIterator.next().getDomain());
+            if(cookieIterator.hasNext() && cookieIterator.next().getDomain() == "account.booking.com") {
+                bookingCookie.add(cookieIterator.next());
+            }
+        }
+        /*for (Cookie cookie: cookies){
+            System.out.println(cookie.getDomain());
+            if (cookie.getDomain() == ".booking.com"){
+                bookingCookie.add(cookie);
+            }
+        }*/
+        return bookingCookie;
     }
 
     public void addCookie(Cookie cookie){

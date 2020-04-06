@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbd77b1c-c29b-4f18-b587-34fc31d273ea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pom/YourCookie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/driver/WebDriverSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/WebDriverSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pom/MainScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pom/MainScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pom/ResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pom/ResultPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pom/SignInForCookie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pom/SignInForCookie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/SeleniumUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/SeleniumUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/anyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/anyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dcds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dcds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/driver/WebDriverSettings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/driver/WebDriverSettings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pom/MainScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pom/MainScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pom/ResultPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pom/ResultPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pom/SignInForCookie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pom/SignInForCookie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/SeleniumUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/SeleniumUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/anyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/anyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dcds.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dcds.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +36,7 @@
   </component>
   <component name="JavaAutoRunManager">
     <enabled-run-configurations>
+      <run-configuration type="TestNG" name="Rerun Failed Tests" />
       <run-configuration type="TestNG" name="dcds" />
     </enabled-run-configurations>
   </component>
@@ -36,35 +52,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../book.com" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="TestNG.anyTest.foo">
-    <configuration name="SignInSuit" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.anyTest.changeSearchParameters">
+    <configuration name="anyTest.changeSearchParameters" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="www.booking.com" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SignInSuit" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SignInSuit.birthDatePositive" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="www.booking.com" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SignInSuit" />
-      <option name="METHOD_NAME" value="birthDatePositive" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SignInSuit.signIn" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="www.booking.com" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SignInSuit" />
-      <option name="METHOD_NAME" value="signIn" />
+      <option name="MAIN_CLASS_NAME" value="anyTest" />
+      <option name="METHOD_NAME" value="changeSearchParameters" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -84,6 +77,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dcds (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="www.booking.com" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="dcds" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="dcds" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="www.booking.com" />
       <option name="PACKAGE_NAME" value="" />
@@ -95,13 +99,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dcds.signIn1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="www.booking.com" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="dcds" />
+      <option name="METHOD_NAME" value="signIn1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.anyTest.foo" />
+        <item itemvalue="TestNG.anyTest.changeSearchParameters" />
         <item itemvalue="TestNG.dcds" />
-        <item itemvalue="TestNG.SignInSuit.birthDatePositive" />
-        <item itemvalue="TestNG.SignInSuit.signIn" />
-        <item itemvalue="TestNG.SignInSuit" />
+        <item itemvalue="TestNG.dcds.signIn1" />
+        <item itemvalue="TestNG.dcds (1)" />
+        <item itemvalue="TestNG.anyTest.foo" />
       </list>
     </recent_temporary>
   </component>
@@ -123,22 +139,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586105913486" />
-    <state width="1323" height="231" key="GridCell.Tab.0.bottom" timestamp="1586106235317">
+    <state width="1323" height="137" key="GridCell.Tab.0.bottom" timestamp="1586189028998">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="231" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586106235317" />
-    <state width="1323" height="231" key="GridCell.Tab.0.center" timestamp="1586106235317">
+    <state width="1323" height="137" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586189028998" />
+    <state width="1323" height="137" key="GridCell.Tab.0.center" timestamp="1586189028998">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="231" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586106235317" />
-    <state width="1323" height="231" key="GridCell.Tab.0.left" timestamp="1586106235317">
+    <state width="1323" height="137" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586189028998" />
+    <state width="1323" height="137" key="GridCell.Tab.0.left" timestamp="1586189028998">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="231" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586106235317" />
-    <state width="1323" height="231" key="GridCell.Tab.0.right" timestamp="1586106235317">
+    <state width="1323" height="137" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586189028998" />
+    <state width="1323" height="137" key="GridCell.Tab.0.right" timestamp="1586189028998">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="231" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586106235317" />
+    <state width="1323" height="137" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586189028998" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1586106231632">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -147,20 +163,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="389" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1585932054126" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1586181839895">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1586181839895" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1586016785806">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1586016785806" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/anyTest.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
